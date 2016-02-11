@@ -29,14 +29,14 @@
     <div id="center">
         <img src="images/bottom_nav_line_1.png" alt="divider">
         <p class="footertext" id="rightabout">
-            <a href='#'>ABOUT</a> <br>
+            <a href='#'>ABOUT</a> <br> 
             <a href='#'>CONTACT</a> 
         </p>
     </div>
     <div id="right">
         <img src="images/bottom_nav_line_1.png" alt="divider">
         <p class="footertext" id="changesreturns">
-            <a href='#'>CHANGES</a> <br>
+            <a href='#'>CHANGES</a> <br> 
             <a href='#'>RETURNS</a>
         </p>
     </div>

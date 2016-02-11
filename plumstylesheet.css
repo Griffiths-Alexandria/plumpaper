@@ -16,13 +16,13 @@ body {
 }
 
 .body {
-    width: 820px;
+    width: 1100px;
     margin: auto;
     display: block;
     background-color: #fff;
-    height: 120%;
     z-index:0;
     margin-top: -2em;
+    height: 1400px;
 }
 
 #banner {
@@ -32,6 +32,8 @@ body {
     transition-duration: 3s;
     width: 92%;
     margin-top: .5em; 
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .upperdivider img {
@@ -99,7 +101,7 @@ body {
     display:inline-block;
     text-align: center; 
     z-index: 2;
-    margin-left: 1.5em;
+    margin-left: 160px;
 }
 
 #homepp img{
@@ -141,18 +143,19 @@ body {
 }
 
 #menu{
-    position: relative;
+
+    height: 35px;
     width: 100%;
-    margin: auto; 
+    padding-left: 40px;
 }
 
 ul {
     list-style-type:none;
     margin: auto;
-    position: absolute;
-    /* display: inline-block; */
-    /*padding-bottom: 1em;
-    /* text-align: center; */
+    position: relative;
+    display: block;
+    /*padding-bottom: 1em;*/
+    text-align: center;
 }
 
 
@@ -162,24 +165,22 @@ li {
     /* margin-right: 1px; */
 }
 
-ul li {
+ul li a{
     font-family: 'contax_pro_45_ligregular', sans-serif;
-    float: left;
-    padding-right: 1em;
     display: inline-block;
-    /* min-width:140px; */
-    height: 35px;
-    /* padding-left: 1em; */
+    text-align: center;
+    min-width: 100px;
+    height: 25px;
+    padding-left: 23px;
 }
 
 ul li a:hover {
     font-family: 'contax_pro_45_ligregular', sans-serif;
-    float: left;
-
     display: inline-block;
-    /* min-width:140px; */
-    height: 50px;
-
+    text-align: center;
+    min-width: 100px;
+    height: 25px;
+    padding-left: 23px;
     color: #be69a1;
 
 
@@ -319,7 +320,7 @@ input[type=checkbox]:checked ~ #menu{
     background-color: #fff;
     padding-bottom: 50px;
     padding-top: 5px;
-    
+
 }
 
 #right {
@@ -329,7 +330,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 .socialicon {
-    width: 20px; 
+    width: 30px; 
 }
 
 #leftside {
@@ -338,7 +339,7 @@ input[type=checkbox]:checked ~ #menu{
     display: inline-block;
     background-color: #fff;
     padding-bottom: 50px;
-    
+
 }
 
 button {
@@ -355,64 +356,76 @@ button {
 .footertext {
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
     font-size: .75em;
+    color: #929395;
 }
 
 #changesreturns {
     float:right;
+    color: #929395;
 }
 
 #rightabout {
-    float: right; 
+    float: right;
+    color: #929395;
+}
+
+#changesreturns a{
+    color: #929395;
+}
+
+#rightabout a{
+    color: #929395;
 }
 
 #socialbuttons {
-    padding-left: 130px;
+    padding-left: 240px;
     float: left;
-    width: 20%;
-    padding-top: 20px;
+    width: 110px;
+    padding-top: 15px;
 }
 
 #socialbuttons img {
-padding-left: 2px;
-padding-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 #center {
-    width: 20%;
+
+    width: 76px;
+
     float: right;
- 
+
     margin-right: 40px;
 }
 
 #right {
-    width: 20%;
+
+    width: 76px;
+
     padding-right: .5em;
-    margin-left: -100px;
+    margin-left: -90px;
     margin-right: -10px;
 }
 
 #right img{
-    margin-left: 10px;
+
     margin-top: 5px;
-    
+
 }
 
 #center img{
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 5px;
 }
 
-#tealbar {
-    width: 100px;
-    display: block;
-    margin-left: -500px;
-    margin-top: 4.5em;
-    z-index: 4;
-    position: absolute;
-}
 
+ 
 #emailsignup p {
-    padding-left: 30px;
+    padding-left: 43px;
+    padding-bottom: -20px;
+    font-size: 11px;
+
+
 }
 
 input:placeholder-shown {
@@ -422,8 +435,11 @@ input:placeholder-shown {
 
 input {
     width: 150px; 
-    margin-left: 30px;
+    height: 20px;
+    margin-left: 43px;
     float: left;
+    position: relative; 
+    
 }
 
 .footertext a {
@@ -434,11 +450,26 @@ input {
     text-decoration: none;
 }
 
+
+
+/***tealbar***/
+
 #tealbartext {
     width: 100%; 
     display: inline-block;
     position: absolute;
     z-index: 5;
+}
+
+
+#tealbar {
+    width: 75px;
+    display: block;
+    margin-left: -500px;
+    margin-top: 4.5em;
+    z-index: 4;
+    position: absolute;
+    height: 65px;
 }
 
 #email a {
@@ -451,18 +482,19 @@ input {
     color: #fff;
     z-index: 5;
     margin-top: 100px;
-    padding-left: 30px;
+    padding-left: 10px;
     position: absolute;
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
     font-size: 15px;
     z-index: 5;
     width: 40%;
     float: left;
-    
+ 
+
 }
 
 #email {
-    color: #be69a1;
+
     position: relative;
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -470,7 +502,8 @@ input {
     float: right;
     padding-left: 0px;
     width: 100px;
-    left: 375px;
+    margin-right: 10px;
     bottom: 28px;
+    color: #fff;
 
 }

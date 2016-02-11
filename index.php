@@ -37,7 +37,9 @@ and open the template in the editor.
     </head>
 
     <body onload= "startTimer()">
+       
         <div class="body">  
+            
 
             <div id="navigation">
                 <?php include("modules/navigation.php"); ?>
