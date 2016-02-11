@@ -1,0 +1,476 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2016, 10:27:04 AM
+    Author     : Alexandria Lenz
+*/
+
+
+body {
+    background-image: url(images/background.jpg);
+    z-index: -1;
+    /* margin: 10px; */
+}
+
+.body {
+    width: 820px;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    height: 120%;
+    z-index:0;
+    margin-top: -2em;
+}
+
+#banner {
+    display: block;
+    margin: auto;
+    /* margin-top: 1em; */
+    transition-duration: 3s;
+    width: 92%;
+    margin-top: .5em; 
+}
+
+.upperdivider img {
+    position: relative; 
+    display: block;
+    margin: auto; 
+    width: 92%; 
+}
+
+#logo {
+    width: 35%;
+    height: auto;
+    display: block; 
+    margin: auto; 
+    padding-top: 3em;
+    padding-bottom: 1em; 
+}
+
+#designhandmade {
+    display: inline-block;
+    /* margin: auto; */
+    width: 100%;
+    padding-top: .5em;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+#design {
+    width: 61%;
+}
+
+#handmade {
+    width: 30%; 
+}
+
+#roundbuttons {
+    display: inline-block;
+    /* margin: auto; */
+    width: 100%;
+    padding-top: .5em;
+    text-align: center; 
+    margin-top: 4em;
+    z-index:3; 
+    position: relative; 
+
+}
+
+#round1 {
+    width: 25%;
+}
+
+#round2 {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 25%;
+}
+
+#round3 {
+    width: 25%; 
+}
+
+#homepp {
+    margin-top: .5em;
+    position: absolute;
+    display:inline-block;
+    text-align: center; 
+    z-index: 2;
+    margin-left: 1.5em;
+}
+
+#homepp img{
+    width: 60%;
+
+}
+
+.footerdivider img{
+    padding-top: 2em;
+    position: relative; 
+    display: block;
+    margin: auto; 
+    width: 92%; 
+}
+
+#tealbar {
+    margin-left: -2em;
+    width:100%;
+}
+
+/* NAVIGATION */
+@font-face {
+    font-family: 'contax_pro_45_ligregular';
+    src: url('font/contaxpro45lig-webfont.eot');
+    src: url('font/contaxpro45lig-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/contaxpro45lig-webfont.woff2') format('woff2'),
+        url('font/contaxpro45lig-webfont.woff') format('woff'),
+        url('font/contaxpro45lig-webfont.ttf') format('truetype'),
+        url('font/contaxpro45lig-webfont.svg#contax_pro_45_ligregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#navigation {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    margin: auto; 
+}
+
+ul {
+    list-style-type:none;
+    margin: auto;
+    position: absolute;
+    /* display: inline-block; */
+    /*padding-bottom: 1em;
+    /* text-align: center; */
+}
+
+
+li {
+    display:inline-block;
+    float: left;
+    /* margin-right: 1px; */
+}
+
+ul li {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    float: left;
+    padding-right: 1em;
+    display: inline-block;
+    /* min-width:140px; */
+    height: 35px;
+    /* padding-left: 1em; */
+}
+
+ul li a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    float: left;
+
+    display: inline-block;
+    /* min-width:140px; */
+    height: 50px;
+
+    color: #be69a1;
+
+
+}
+
+li a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    display:block;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    color: #929395;
+    text-decoration: none;
+    /* padding-right: 1em; */
+    padding-left: 1em;
+    font-size: .85em;
+}
+
+a {}
+
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block; 
+    font-size: .75em;
+    padding: 10px 0; 
+}
+
+
+/*.hidden a{
+ text-align: left;
+}
+*/
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    .body {
+        width: 80%; 
+    }
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    li a {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0em;
+        text-align: left; 
+    }
+
+
+    /*Display 'show menu' link*/
+    .show-menu {
+        display: block;
+    }
+
+    #homepp {
+        position: absolute;
+        margin-bottom: -50px;  
+        z-index: 2;
+        margin-right: 5.5em;
+    }
+}
+
+
+/**************FOOTER***************/
+
+#footer {
+    background-color: #fff;
+}
+
+#rightside {
+    float: right;
+    width: 50%;
+    background-color: #fff;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    
+}
+
+#right {
+    float: right;
+    display: inline-block;
+    padding-right: 3em;
+}
+
+.socialicon {
+    width: 20px; 
+}
+
+#leftside {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    background-color: #fff;
+    padding-bottom: 50px;
+    
+}
+
+button {
+    width:17%;
+    background: transparent;
+    border: none;
+    margin-top: -1px;
+}
+
+#joinnow img {
+    width: 100%; 
+}
+
+.footertext {
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: .75em;
+}
+
+#changesreturns {
+    float:right;
+}
+
+#rightabout {
+    float: right; 
+}
+
+#socialbuttons {
+    padding-left: 130px;
+    float: left;
+    width: 20%;
+    padding-top: 20px;
+}
+
+#socialbuttons img {
+padding-left: 2px;
+padding-right: 2px;
+}
+
+#center {
+    width: 20%;
+    float: right;
+ 
+    margin-right: 40px;
+}
+
+#right {
+    width: 20%;
+    padding-right: .5em;
+    margin-left: -100px;
+    margin-right: -10px;
+}
+
+#right img{
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+#center img{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#tealbar {
+    width: 100px;
+    display: block;
+    margin-left: -500px;
+    margin-top: 4.5em;
+    z-index: 4;
+    position: absolute;
+}
+
+#emailsignup p {
+    padding-left: 30px;
+}
+
+input:placeholder-shown {
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: .75em;
+}
+
+input {
+    width: 150px; 
+    margin-left: 30px;
+    float: left;
+}
+
+.footertext a {
+    text-decoration: none;
+}
+
+#socialbuttons a {
+    text-decoration: none;
+}
+
+#tealbartext {
+    width: 100%; 
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
+}
+
+#email a {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+}
+
+#copywrite {
+    color: #fff;
+    z-index: 5;
+    margin-top: 100px;
+    padding-left: 30px;
+    position: absolute;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    z-index: 5;
+    width: 40%;
+    float: left;
+    
+}
+
+#email {
+    color: #be69a1;
+    z-index: 5;
+    margin-top: 100px;
+    padding-left: 390px;
+    position: absolute;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    z-index: 5;
+    width: 40%;
+    float: right;
+    
+}
