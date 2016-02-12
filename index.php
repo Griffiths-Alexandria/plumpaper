@@ -72,7 +72,7 @@ and open the template in the editor.
                 <a href="#"><img src="images/home_circle_3.png" alt="homecirleshop" id="round3"></a>
             </div>
 
-            <div id="footer">
+            <div id="footer" style="margin-top: 450px;">
                 <?php include("modules/footer.php"); ?>
             </div>
             
