@@ -13,8 +13,8 @@
 
     <ul>
 
-        <li><a href="/index.php" title="Home">home</a></li>
-        <li class="navimage"><a href="/pages/products.php" title="products">learn about our products</a>
+        <li><a href="index.php" title="Home">home</a></li>
+        <li class="navimage"><a href="products.php" title="products">learn about our products</a>
             <!--<ul class="hidden">
                 <li><a href="/subpages/">ME Planners (Family Planner)</a></li>
                 <li><a href="/subpages/">Regular Planners</a></li>
@@ -27,7 +27,7 @@
                 <li><a href="/subpages/">Notebooks</a></li>
             </ul>-->
         </li>
-        <li class="navimage"><a href="/pages/addons.php" title="addons">learn about our add ons</a>
+        <li class="navimage"><a href="addons.php" title="addons">learn about our add ons</a>
             <!--<ul class="hidden">
                 <li><a href="/subpages/">My Home Planning Section</a></li>
                 <li><a href="/subpages/">Fitness Planner Section</a></li>
@@ -46,16 +46,16 @@
                 <li><a href="/subpages/">Stickers</a></li>
             </ul>-->
         </li>
-        <li class="navimage"><a href="/pages/shop.php" title="shop">shop</a></li>
-        <li class="navimage"><a href="/pages/contact.php" title="contact">contact us</a></li>
-        <li><a href="/pages/faq.php" title="faqs">faqs</a>
+        <li class="navimage"><a href="shop.php" title="shop">shop</a></li>
+        <li class="navimage"><a href="contact.php" title="contact">contact us</a></li>
+        <li><a href="faq.php" title="faqs">faqs</a>
             <!--<ul class="hidden">
                 <li><a href="/subpages/">General Questions</a></li>
                 <li><a href="/subpages/">Ordering Questions</a></li>
                 <li><a href="/subpages/">Planner Questions</a></li>
             </ul>-->
         </li>
-        <li><a href="/pages/about.php" title="about">about plum</a></li>
+        <li><a href="about.php" title="about">about plum</a></li>
     </ul>
 
 </nav>
