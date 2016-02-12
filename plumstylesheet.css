@@ -271,7 +271,7 @@ input[type=checkbox]:checked ~ #menu{
     padding-right: 55px;
     margin-top: 70px;
     position: absolute;
-    width: 80%;
+    width: 1000px;
 }
 
 .header img{
@@ -279,7 +279,7 @@ input[type=checkbox]:checked ~ #menu{
     display: inline-block;
     /* margin-left: 45px; */
     text-align: center;
-    width: 82%;
+    width: 1010px;
     margin-top: 20px;
     margin-left: 45px;
     margin-bottom: 20px;
@@ -528,6 +528,35 @@ br {
         margin-top: 10px;
         margin-bottom: 10px;
     }    
+    
+    
+    
+/**************ABOUT****************/
+.font {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#abouttxt {
+    position: relative;
+    /* margin-right: 20px; */
+    /* margin-left: 0px; */
+    margin-top: 1em;
+    width: 90%;
+}
+
+.header img{
+    position: relative;
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+
 /****FOOTER*****/  
 
 
@@ -535,6 +564,7 @@ br {
         margin-top: 250px;
         background-color: #fff;
         width: 100%;
+        padding-bottom: 250px;
     }
 
     #rightside {
@@ -673,6 +703,7 @@ br {
         width: 100%;
         padding-left: 40px;
         margin-top: 220px;
+        background-color: #fff;
     }
     
     #email{

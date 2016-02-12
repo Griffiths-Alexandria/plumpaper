@@ -39,6 +39,11 @@ Each of our products are handmade from start to finish right here in our San Die
             </p>
             </div>
             
+            <div id="3about">
+                <img src="images/aboutimages.png" alt="aboutimages">
+            </div>
+            
+            
             <div id="footer">
                 <?php include("modules/footer.php"); ?>
             </div>
