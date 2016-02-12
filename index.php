@@ -37,9 +37,9 @@ and open the template in the editor.
     </head>
 
     <body onload= "startTimer()">
-       
+
         <div class="body">  
-            
+
 
             <div id="navigation">
                 <?php include("modules/navigation.php"); ?>
@@ -72,12 +72,14 @@ and open the template in the editor.
                 <a href="#"><img src="images/home_circle_3.png" alt="homecirleshop" id="round3"></a>
             </div>
 
-            <div id="footer" style="margin-top: 450px;">
+            <div id="footer">
                 <?php include("modules/footer.php"); ?>
             </div>
             
+            <div id="end"></div>
+
         </div>
 
-     
+
     </body>
 </html>

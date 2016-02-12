@@ -41,11 +41,11 @@
         </p>
     </div>
 
-</div>
-
+</div>    
+    
 
     <p id="copywrite">Plum Paper LLC | &copy; 2016 plumpaper.com</p>
-    
+
     <p id="email"><a href="mailto:hello@plumpaper.com">hello@plumpaper.com</a></p>
 
-        <img src="images/tealbar.png" alt="footerbar" id="end">
+
