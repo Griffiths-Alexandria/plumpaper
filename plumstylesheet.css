@@ -84,7 +84,7 @@ body {
     text-align: center; 
     margin-top: 4em;
     z-index:3; 
-    position: absolute; 
+    position: relative; 
 
 }
 
@@ -286,12 +286,23 @@ input[type=checkbox]:checked ~ #menu{
     
 }
 
+#aboutimages {
+    position: relative;
+    width: 100%; 
+    margin-top: 300px;
+}
+
+#aboutimages img {
+    width: 80%;
+    display: block;
+    margin-left: 110px;
+}
 
 /**************FOOTER***************/
 
 #footer {
     background-color: #fff;
-    margin-top: 450px;
+    margin-top: 3em;
 }
 
 #rightside {
@@ -537,7 +548,7 @@ br {
     font-size: 14px;
     color: #929395;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 #abouttxt {
@@ -552,16 +563,27 @@ br {
     position: relative;
     width: 90%;
     margin-top: 1em;
-    margin-left: 45px;
-    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
+#aboutimages {
+    position: relative;
+    width: 90%; 
+    margin-top: 1em;
+}
+
+#aboutimages img {
+    width: 80%;
+    display: block;
+    margin-left: 100px;
+}
 
 /****FOOTER*****/  
 
 
     #footer {
-        margin-top: 250px;
+        margin-top: 3em;
         background-color: #fff;
         width: 100%;
         padding-bottom: 250px;
@@ -804,7 +826,7 @@ display:none;
     }    
 /****FOOTER*****/    
     #footer {
-        margin-top: 250px;
+        margin-top: 3em;
         background-color: #fff;
     }
 
@@ -995,6 +1017,43 @@ display:none;
 	.show-menu {
 		display:block;
 	}
+        /**************ABOUT****************/
+.font {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-align: center;
+    margin-right: 4em;
+}
+
+#abouttxt {
+    position: relative;
+    /* margin-right: 20px; */
+    /* margin-left: 0px; */
+    margin-top: 1em;
+    width: 90%;
+}
+
+.header img{
+    position: relative;
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+}
+
+#aboutimages {
+    position: relative;
+    width: 90%;
+    margin-top: 1em;
+    /* margin-right: 2em; */
+}
+
+#aboutimages img {
+    width: 80%;
+    display: block;
+    margin-left: 5em;
+}
 }
 
 
