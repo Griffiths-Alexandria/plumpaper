@@ -11,7 +11,7 @@
     <label for="show-menu" class="show-menu">Show Menu</label>
     <input type="checkbox" id="show-menu" role="button">
 
-    <ul id="menu">
+    <ul>
 
         <li><a href="/index.php" title="Home">home</a></li>
         <li class="navimage"><a href="/pages/products.php" title="products">learn about our products</a>
