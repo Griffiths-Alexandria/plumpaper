@@ -267,7 +267,7 @@ input[type=checkbox]:checked ~ #menu{
     float: right;
     width: 50%;
     background-color: #fff;
-    /* padding-bottom: 50px; */
+    /* margin-bottom: 50px; */
     padding-top: 5px;
 }
 
@@ -286,7 +286,7 @@ input[type=checkbox]:checked ~ #menu{
     width: 50%;
     display: inline-block;
     background-color: #fff;
-    /* padding-bottom: 50px; */
+    padding-bott: 2px;
 }
 
 button {
@@ -295,6 +295,7 @@ button {
     border: none;
     margin-top: -1px;
     margin-left: 200px;
+    /* padding-bottom: 10px; */
 }
 
 #joinnow img {
@@ -306,6 +307,7 @@ button {
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
     font-size: .75em;
     color: #929395;
+    /* padding-bottom: 5px; */
 }
 
 #changesreturns {
@@ -383,12 +385,12 @@ input:placeholder-shown {
 }
 
 input {
-    width: 150px; 
+    width: 150px;
     height: 20px;
     margin-left: 43px;
     float: left;
-    position: absolute; 
-
+    position: absolute;
+    /* padding-bottom: 10px; */
 }
 
 .footertext a {
@@ -448,12 +450,11 @@ br {
 }
 
 #end {
-    
     width: 100%;
     height: 150px;
     z-index: 3;
-
     background-color: #a4ddca;
+    /* margin-top: 20px; */
 }
 
 
@@ -775,7 +776,7 @@ display:none;
     }
 
     button {
-        width: 90px;
+        width: 100px;
         background: transparent;
         border: none;
         margin-top: 40px;

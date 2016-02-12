@@ -13,7 +13,7 @@
         <input type="textbox" placeholder="ENTER YOUR EMAIL ADDRESS...">
     </div>
     <div id="joinnow">
-        <button type="submit"><img src="images/join_now_button.jpg" alt="joinnow"></button>
+        <button type="submit"><img src="images/join_now_button.png" alt="joinnow"></button>
     </div>
 </div>
 
