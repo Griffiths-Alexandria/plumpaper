@@ -311,6 +311,7 @@ input[type=checkbox]:checked ~ #menu{
     background-color: #fff;
     /* margin-bottom: 50px; */
     padding-top: 5px;
+    margin-right: 6px;
 }
 
 #right {
@@ -325,10 +326,10 @@ input[type=checkbox]:checked ~ #menu{
 
 #leftside {
     float: left;
-    width: 50%;
+    width: 40%;
     display: inline-block;
     background-color: #fff;
-    padding-bott: 2px;
+    padding-left: 3px;
 }
 
 button {
@@ -451,14 +452,14 @@ input {
 #email a {
     float: right;
     text-decoration: none;
-    color: #fff;
+    color: #a4ddca;
 }
 
 #copywrite {
-    color: #fff;
+    color: #a4ddca;
     z-index: 5;
     margin-top: 100px;
-    padding-left: 10px;
+    padding-left: 45px;
     position: absolute;
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -477,14 +478,19 @@ input {
     padding-left: 0px;
     width: 100px;
     bottom: 30px;
-    color: #fff;
+    color: #a4ddca;
     bottom: auto;
-    margin-right: 0px;
-    margin-left: 990px;
-    margin-top: 100px;
+    margin-right: 0px;margin-left: 955px;
+    margin-top: 100px;}
 
-
-}
+.upperdivider2 img {
+    position: absolute;
+    display: block;
+    margin-left: 45px;
+    text-align: center;
+    width: 1010px;
+    margin-top: 70px;
+} 
 
 br {
     display: block;
@@ -495,7 +501,7 @@ br {
     width: 100%;
     height: 150px;
     z-index: 3;
-    background-color: #a4ddca;
+    background-color: #fff;
     /* margin-top: 20px; */
 }
 
@@ -521,23 +527,37 @@ br {
 
     /** grey lines 8**/
     .footerdivider {
-        display: none;
+        display: hidden;
     }
 
     .upperdivider {
-        display: none; 
+        display: none;
+        /* position: absolute; */
+        /* width: 120px; */
     }
+    
+    .upperdivider img {
+    position: absolute;
+    display: block;
+    margin-left: 45px;
+    text-align: center;
+    margin-top: 10px;
+    width: 70%;
+}
 
     #homepp {
         display: none;
+        /* position: absolute; */
+        /* margin-left: 50px; */
     }
 
     #roundbuttons {
-        width: 90%; 
-        display: inline; 
+        width: 90%;
+        display: inline;
         padding: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
+        position: absolute;
     }    
     
     
@@ -583,7 +603,7 @@ br {
 
 
     #footer {
-        margin-top: 3em;
+        margin-top: 15em;
         background-color: #fff;
         width: 100%;
         padding-bottom: 250px;
@@ -596,7 +616,8 @@ br {
         padding-bottom: 5px;
         /* padding-top: 10px; */
         padding-left: 10px;
-        margin-top: 140px;
+        /* margin-top: 140px; */
+        margin-right: -5px;
     }
 
     #right {
@@ -616,8 +637,9 @@ br {
         width: 0%;
         display: inline-block;
         background-color: #fff;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
         margin-top: 30px;
+        /* margin-left: 10px; */
     }
 
     button {
@@ -759,42 +781,80 @@ br {
     #end {
 display:none;
     }
+    
+    
     /***** MOBILE NAV ******/
 
-    nav { 
-        height: auto;
-    }
-    nav ul {
-        width: 100%;
-        height: inherit;
-        display: block;
-        height: auto;
-        margin-left: -40px;
-        padding: 0px;
-        text-align: center;
-    }
-    nav li {
-        width: 50%;
-        float: left;
-        position: relative;
-    }
-    nav li a {
-        border: none;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-    }
-    nav li a:hover {
-        border: none;
-        width: 100%;
-        text-align: center;
-    }
-    nav a {
-        text-align: left;
-        width: 100%;
+ 
+    /*Make dropdown links appear inline*/
+	nav ul {
+		position: relative;
+		display: block;
+                border: none;
+                width: 100%;
+                height: inherit;
+                margin-left: 0px;
+                padding: 0px;
+                text-align: center;
+                    
+	}     
+        
+	/*Create vertical spacing*/
+	nav li {
+		margin-bottom: 1px;
+                position: relative;
+                border: none;
+                width: 30%;
+                float: left;
+                display: inline-block;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+                border: none;
+	}
+        
+        nav li a {
+            border: none;
+            width: 190px;
+            text-align: center;
+            margin: 10px;
+            font-size: 15px;
+        }
+        
+        nav li a:hover {
+            border: none;
+            width: 190px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+        
+        #aboutplum {
+            margin: 0px;
+            border: none;
+        } 
 
-    }
+        .footerdivider img {
+            display:none;
+        }
+
+        .upperdivider2 img {
+            display: none;
+        }
+
+
 }
+
+
+
+
+
+
+
 
 @media screen and (max-width : 650px){
 
@@ -995,28 +1055,45 @@ display:none;
     
     
     
-    
+  
     
 /**** NAV ****/    
     
     /*Make dropdown links appear inline*/
 	nav ul {
-		position: static;
+		position: relative;
 		display: block;
+                border: none;
 	}     
         
 	/*Create vertical spacing*/
 	ul li {
 		margin-bottom: 1px;
+                position: relative;
+                border: none;
 	}
 	/*Make all menu links full width*/
 	ul li, li a {
 		width: 100%;
+                border: none;
 	}
+        
+        nav li a {
+            border: none;
+        }
+        
+        nav li a:hover {
+            border: none;
+        }
 	/*Display 'show menu' link*/
 	.show-menu {
 		display:block;
 	}
+        
+        #aboutplum {
+            margin: 0px;
+            border: none;
+        }
         /**************ABOUT****************/
 .font {
     font-family: 'contax_pro_45_ligregular', sans-serif;
