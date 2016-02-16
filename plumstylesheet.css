@@ -343,7 +343,7 @@ button {
 
 #joinnow img {
     width: 100%;
-    /* margin-top: 5px; */
+    margin-top: -2px;
 }
 
 .footertext {
@@ -557,7 +557,8 @@ br {
         padding: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
-        position: absolute;
+        position: relative;
+        padding-left: 4em;
     }    
     
     
@@ -589,24 +590,26 @@ br {
 
 #aboutimages {
     position: relative;
-    width: 90%; 
+    width: 100%;
     margin-top: 1em;
 }
 
 #aboutimages img {
     width: 80%;
     display: block;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 /****FOOTER*****/  
 
 
     #footer {
-        margin-top: 15em;
+        margin-top: 0px;
+        /* padding-top: 15em; */
         background-color: #fff;
         width: 100%;
         padding-bottom: 250px;
+        position: relative;
     }
 
     #rightside {
@@ -643,12 +646,12 @@ br {
     }
 
     button {
-        width: 90px;
+        width: 120px;
         background: transparent;
         border: none;
         margin-top: 40px;
         margin-left: 37px;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
     }
 
     #joinnow img {
@@ -882,14 +885,21 @@ display:none;
         display: inline;
         padding: 0px;
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 2em;
         margin-right: auto;
     }    
 /****FOOTER*****/    
     #footer {
-        margin-top: 9em;
+   
         background-color: #fff;
+           margin-top: 0px;
+        /* padding-top: 15em; */
+        background-color: #fff;
+        width: 100%;
+        padding-bottom: 250px;
+        position: relative;
     }
+    
 
     #rightside {
         float: right;
