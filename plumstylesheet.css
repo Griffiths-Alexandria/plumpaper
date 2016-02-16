@@ -827,6 +827,7 @@ display:none;
             width: 190px;
             text-align: center;
             margin-bottom: 10px;
+            font-size: 15px;
         }
 	/*Display 'show menu' link*/
 	.show-menu {
@@ -886,7 +887,7 @@ display:none;
     }    
 /****FOOTER*****/    
     #footer {
-        margin-top: 3em;
+        margin-top: 9em;
         background-color: #fff;
     }
 
@@ -894,9 +895,10 @@ display:none;
         float: right;
         width: 100%;
         background-color: #fff;
-        padding-bottom: 50px;
-        padding-top: 10px;
+        /* padding-bottom: 150px; */
+        padding-top: 0px;
         padding-left: 10px;
+        /* margin-bottom: 50px; */
     }
 
     #right {
@@ -916,7 +918,7 @@ display:none;
         width: 0%;
         display: inline-block;
         background-color: #fff;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     button {
@@ -1022,15 +1024,18 @@ display:none;
         color: #929395;
         width: 100%;
         padding-left: 40px;
+        position: absolute;
+        margin-top: 230px;
+        padding-bottom: 5px;
     }
     
     #email{
-     margin-top: 150px;
+     margin-top: 200px;
      margin-right: 500px;
      margin-left: 0px;
      padding-bottom: 15px;
      padding-left: 100px;
-     padding-top: 15px;
+     /* padding-top: 35px; */
      position: absolute;
      font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
      font-size: 15px;
