@@ -42,11 +42,12 @@ body {
 }
 
 .upperdivider img {
-    position: absolute; 
+    position: absolute;
     display: block;
-    margin-left: 45px; 
+    margin-left: 45px;
     text-align: center;
-    width: 1010px; 
+    width: 1010px;
+    /* padding-bottom: 3px; */
 }
 
 #logo {
@@ -167,6 +168,11 @@ nav ul {
     margin-left: 45px;
 }
 
+.submenu {
+    display: none;
+}
+
+
 
 ul li {
     display: table-cell;
@@ -214,6 +220,7 @@ ul li:hover ul a:hover {
 /*Hide dropdown links until they are needed*/
 ul li ul {
     display: none;
+    /* position:  absolute; */
 }
 
 /*Make dropdown links vertical*/
@@ -303,6 +310,7 @@ input[type=checkbox]:checked ~ #menu{
 #footer {
     background-color: #fff;
     margin-top: 3em;
+    position: relative;
 }
 
 #rightside {
@@ -506,10 +514,72 @@ br {
 }
 
 
+/*>>>>>>>>>>ADD ON PAGES<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sidenav {
+    position: relative;
+    float: left;
+    width: 20%;
+    /* height: 200px; */
+    text-align: left;
+    display: block;
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+
+.addonbutton {
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    border: none;
+}
 
 
+.addonbutton:hover {
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #be69a1;
+    color: #fff;
+    border: none;
+}
+
+button:focus {outline:0;}
 
 
+.ajaxbody {
+    position: relative;
+    display: block;
+    float: right;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.ajax {
+    display: block;
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    position: relative;
+    /* padding-bottom: 10px; */
+    /* padding-top: 30px; */
+    top: 30px;
+}
+
+.addonimage img {
+    width: 70%;
+}
 
 
 

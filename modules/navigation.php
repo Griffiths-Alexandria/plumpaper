@@ -1,3 +1,18 @@
+<script type="text/javascript">
+function nav(){
+$('.nav li').hover(function() {
+     $(this).find('ul:first').stop().animate({height: '200px', opacity: '100'},    {queue:false, duration:200, easing: 'easeInSine'})
+        }, function() {
+     $(this).find('ul:first').stop().animate({height: '0px', opacity: '0'},    {queue:false, duration:100, easing: 'easeInCirc'}) 
+      });
+  };
+  $(document).ready(function() {
+    nav();
+});
+</script>
+
+
+
 <div>
     <img src="images/plum_logo.jpg" alt="logo" id="logo">
 </div>
@@ -15,7 +30,7 @@
 
         <li><a href="index.php" title="Home">home</a></li>
         <li class="navimage"><a href="products.php" title="products">learn about our products</a>
-            <!--<ul class="hidden">
+            <!--<ul>
                 <li><a href="/subpages/">ME Planners (Family Planner)</a></li>
                 <li><a href="/subpages/">Regular Planners</a></li>
                 <li><a href="/subpages/">Monthly Notebook Planners</a></li>
