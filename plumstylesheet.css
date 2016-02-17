@@ -581,7 +581,18 @@ button:focus {outline:0;}
     width: 70%;
 }
 
+.limits {
+    width: 100%;
+    position: relative;
+}
 
+.limits img {
+    width: 93%;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-top: 3em;
+}
 
 /******************************/
 /*Responsive Styles*/

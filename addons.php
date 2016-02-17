@@ -214,7 +214,11 @@ and open the template in the editor.
                 </div>
 
             </div>
-
+            
+            <div class="limits">
+                <img src="images/addonimages/limits.jpg" alt="pagelimit">
+            </div>
+            
             <div id="footer">
                 <?php include("modules/footer.php"); ?>
             </div>
