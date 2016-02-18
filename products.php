@@ -9,7 +9,7 @@ and open the template in the editor.
 
         <?php include("modules/meta.php"); ?>
 
-        <title>About</title>
+        <title>Products</title>
         <script>
             function loadDocME() {
                 var xhttp = new XMLHttpRequest();

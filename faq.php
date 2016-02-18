@@ -9,8 +9,83 @@ and open the template in the editor.
 
         <?php include("modules/meta.php"); ?>
 
-        <title>About</title>
+        <title>Plum Support</title>
+        <script>
 
+            function loadDocAccount() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "products/meplanner.html", true);
+                xhttp.send();
+            }
+
+            function loadDocGeneral() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "products/regularplanner.html", true);
+                xhttp.send();
+            }
+
+            function loadDocPlacing() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "products/monthlyplanner.html", true);
+                xhttp.send();
+            }
+            function loadDocPending() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "products/teacherplanner.html", true);
+                xhttp.send();
+            }
+            function loadDocShipping() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "products/studentplanner.html", true);
+                xhttp.send();
+            }
+            function loadDocProblem() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "products/fitnessplanner.html", true);
+                xhttp.send();
+            }
+            function loadDocReturns() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    }
+                };
+                xhttp.open("GET", "questions/returns.html", true);
+                xhttp.send();
+            }
+
+        </script>
     </head>
 
     <body>
@@ -26,18 +101,33 @@ and open the template in the editor.
                 <img src="images/home_divider_line.png" alt="divider">
             </div>
 
-            
-
-            <div id="roundbuttons">
-                <a href="#"><img src="images/home_circle_1.png" alt="homecirleplanner" id="round1"></a>
-                <a href="#"><img src="images/home_circle_2.png" alt="homecirleaddon" id="round2"></a>                
-                <a href="#"><img src="images/home_circle_3.png" alt="homecirleshop" id="round3"></a>
+            <div class="header">
+                <img src="images/support/plumsupport.png" alt="supportheader">
             </div>
+
+            <div id="supportbuttons">
+                <button onclick="loadDocAccount()" class="supportbutton"><img src="images/support/account.png" alt="accountbutton"></button>
+                <button onclick="loadDocGeneral()" class="supportbutton"><img src="images/support/generalquestions.png" alt="generalbutton"></button>
+                <button onclick="loadDocPlacing()" class="supportbutton"><img src="images/support/placingorder.png" alt="placingbutton"></button>
+                <button onclick="loadDocPending()" class="supportbutton"><img src="images/support/pendingorder.png" alt="pendingbutton"></button>
+                <button onclick="loadDocShipping()" class="supportbutton"><img src="images/support/shipping.png" alt="shippingbutton"></button>
+                <button onclick="loadDocProblem()" class="supportbutton"><img src="images/support/problemorder.png" alt="problembutton"></button>
+                <button onclick="loadDocReturns()" class="supportbutton"><img src="images/support/returns.png" alt="returnbutton"></button>
+
+            </div>
+
+
+            <div class="upperdivider">
+                <img src="images/home_divider_line.png" alt="divider">
+            </div>
+
+            <div id="demo" class="ajaxsupport"><h2>*insert question pages*</h2></div>
+
 
             <div id="footer">
                 <?php include("modules/footer.php"); ?>
             </div>
-            
+
             <div id="end"></div>
 
         </div>
