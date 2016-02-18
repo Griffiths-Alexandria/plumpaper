@@ -20,9 +20,9 @@
 <div id="rightside">
 
     <div id="socialbuttons">
-        <a href='https://www.facebook.com/Plum-Paper-167204733362903/?ref=hl'><img src="images/facebook_icon.jpg" alt="facebook" class="socialicon"></a>
-        <a href='https://www.instagram.com/plumpaper/'><img src="images/instagram_icon.jpg" alt="instagram" class="socialicon"></a>
-        <a href='https://www.pinterest.com/plumpaper/'><img src="images/pinterest_icon.jpg" alt="pinterest" class="socialicon"></a>
+        <a href='https://www.facebook.com/Plum-Paper-167204733362903/?ref=hl' target="_blank"><img src="images/facebook_icon.jpg" alt="facebook" class="socialicon"></a>
+        <a href='https://www.instagram.com/plumpaper/' target="_blank"><img src="images/instagram_icon.jpg" alt="instagram" class="socialicon"></a>
+        <a href='https://www.pinterest.com/plumpaper/' target="_blank"><img src="images/pinterest_icon.jpg" alt="pinterest" class="socialicon"></a>
     </div>
 
 

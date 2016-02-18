@@ -67,9 +67,9 @@ and open the template in the editor.
             </div>
 
             <div id="roundbuttons">
-                <a href="#"><img src="images/home_circle_1.png" alt="homecirleplanner" id="round1"></a>
-                <a href="#"><img src="images/home_circle_2.png" alt="homecirleaddon" id="round2"></a>                
-                <a href="#"><img src="images/home_circle_3.png" alt="homecirleshop" id="round3"></a>
+                <a href="products.php"><img src="images/home_circle_1.png" alt="homecirleplanner" id="round1"></a>
+                <a href="addons.php"><img src="images/home_circle_2.png" alt="homecirleaddon" id="round2"></a>                
+                <a href="shop.php"><img src="images/home_circle_3.png" alt="homecirleshop" id="round3"></a>
             </div>
 
             <div id="footer">

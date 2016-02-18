@@ -96,7 +96,7 @@ body {
 #round2 {
     padding-left: 2em;
     padding-right: 2em;
-    width: 25%;
+    width: 30%;
 }
 
 #round3 {
@@ -157,7 +157,7 @@ body {
 nav {
     height: 35px;
     width: 100%;
-    padding-bottom: 15px; 
+    padding-top: 8px;
     text-align: center;
 }
 
@@ -334,10 +334,10 @@ input[type=checkbox]:checked ~ #menu{
 
 #leftside {
     float: left;
-    width: 40%;
+    width: 20%;
     display: inline-block;
     background-color: #fff;
-    padding-left: 3px;
+    padding-left: 43px;
 }
 
 button {
@@ -350,25 +350,31 @@ button {
 }
 
 #joinnow img {
-    width: 100%;
-    margin-top: -2px;
+    width: 70px;
+    position: relative;
+    /* display: inline-block; */
+    margin-left: 150px;
+    bottom: 3px;
 }
 
 .footertext {
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
     font-size: .75em;
     color: #929395;
-    /* padding-bottom: 5px; */
+    /* padding-left: 43px; */
+    /* bottom: 10px; */
 }
 
 #changesreturns {
     float:right;
     color: #929395;
+    padding-top: 10px;
 }
 
 #rightabout {
     float: right;
     color: #929395;
+    padding-top: 10px;
 }
 
 #changesreturns a{
@@ -380,10 +386,11 @@ button {
 }
 
 #socialbuttons {
-    padding-left: 240px;
+    /* padding-left: 140px; */
     float: left;
-    width: 110px;
+    width: 65%;
     padding-top: 15px;
+    padding-left: 240px;
 }
 
 #socialbuttons img {
@@ -402,12 +409,7 @@ button {
 
 #right {
 
-    width: 76px;
-
-    padding-right: .5em;
-    margin-left: -90px;
-    margin-right: -10px;
-}
+    width: 76px;padding-right: .5em;/* margin-left: -90px; *//* margin-right: -10px; *//* height: 20px; */margin-bottom: 10px;}
 
 #right img{
 
@@ -423,10 +425,9 @@ button {
 
 
 #emailsignup p {
-    padding-left: 43px;
-    padding-bottom: -20px;
+    /* padding-left: 43px; */
     font-size: 11px;
-    width: 150px;
+    /* width: 150px; */
     margin-top: 10px;
 }
 
@@ -442,10 +443,12 @@ input {
     float: left;
     position: absolute;
     /* padding-bottom: 10px; */
+    padding-left: 10px;
 }
 
 .footertext a {
     text-decoration: none;
+    /* padding-top: 10px; */
 }
 
 #socialbuttons a {
