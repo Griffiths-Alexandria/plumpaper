@@ -192,14 +192,18 @@ and open the template in the editor.
 
             <div class="ajax">
 
-                <div id="demo" class="ajaxbody"><h2>Let AJAX change this text</h2></div>
+        
+
+                <div id="demo" class="ajaxbody"><h2>*insert add-on landing page*</h2></div>
+
+
 
                 <div class="sidenav">
-                    <button onclick="loadDoc()" class="addonbutton">Meal Planning Section</button>
-                    <button onclick="loadDoc2()" class="addonbutton">Budget Planning Section</button>
+                    <button onclick="loadDoc()" class="addonbutton">Meal Planning</button>
+                    <button onclick="loadDoc2()" class="addonbutton">Budget Section</button>
                     <button onclick="loadDoc3()" class="addonbutton">My Home Section</button>
                     <button onclick="loadDoc4()" class="addonbutton">Fitness Section</button>
-                    <button onclick="loadDoc5()" class="addonbutton">Blog Planning Section</button>
+                    <button onclick="loadDoc5()" class="addonbutton">Blog Section</button>
                     <button onclick="loadDoc6()" class="addonbutton">Direct Sales Section</button>
                     <button onclick="loadDoc7()" class="addonbutton">Baby Section</button>
                     <button onclick="loadDoc8()" class="addonbutton">Wedding Section</button>
@@ -214,11 +218,11 @@ and open the template in the editor.
                 </div>
 
             </div>
-            
+
             <div class="limits">
                 <img src="images/addonimages/limits.jpg" alt="pagelimit">
             </div>
-            
+
             <div id="footer">
                 <?php include("modules/footer.php"); ?>
             </div>

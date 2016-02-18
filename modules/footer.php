@@ -20,24 +20,24 @@
 <div id="rightside">
 
     <div id="socialbuttons">
-        <a href='#'><img src="images/facebook_icon.jpg" alt="facebook" class="socialicon"></a>
-        <a href='#'><img src="images/instagram_icon.jpg" alt="instagram" class="socialicon"></a>
-        <a href='#'><img src="images/pinterest_icon.jpg" alt="pinterest" class="socialicon"></a>
+        <a href='https://www.facebook.com/Plum-Paper-167204733362903/?ref=hl'><img src="images/facebook_icon.jpg" alt="facebook" class="socialicon"></a>
+        <a href='https://www.instagram.com/plumpaper/'><img src="images/instagram_icon.jpg" alt="instagram" class="socialicon"></a>
+        <a href='https://www.pinterest.com/plumpaper/'><img src="images/pinterest_icon.jpg" alt="pinterest" class="socialicon"></a>
     </div>
 
 
     <div id="center">
         <img src="images/bottom_nav_line_1.png" alt="divider">
         <p class="footertext" id="rightabout">
-            <a href='#'>ABOUT</a> <br> 
-            <a href='#'>CONTACT</a> 
+            <a href='about.php'>ABOUT</a> <br> 
+            <a href='contact.php'>CONTACT</a> 
         </p>
     </div>
     <div id="right">
         <img src="images/bottom_nav_line_1.png" alt="divider">
         <p class="footertext" id="changesreturns">
-            <a href='#'>CHANGES</a> <br> 
-            <a href='#'>RETURNS</a>
+            <a href='contact.php'>CHANGES</a> <br> 
+            <a href='contact.php'>RETURNS</a>
         </p>
     </div>
 

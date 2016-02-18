@@ -528,31 +528,39 @@ br {
 }
 
 .addonbutton {
-    width: 100%;
+    width: 70%;
     text-align: left;
-    margin-left: 0px;
-    padding-left: 5em;
+    margin-left: 60px;
+    padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     background-color: #fff;
     border: none;
+    text-transform: uppercase;
+    color: #929395;
+    
 }
 
 
 .addonbutton:hover {
-    width: 100%;
+    width: 150px;
     text-align: left;
-    margin-left: 0px;
-    padding-left: 5em;
+    margin-left: 40px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    background-color: #be69a1;
+    font-size: 11px;
+    background-image: url('images/plum_arrow.jpg');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position:center;
     color: #fff;
     border: none;
+    text-transform: uppercase;
+    
 }
 
 button:focus {outline:0;}
@@ -577,6 +585,17 @@ button:focus {outline:0;}
     top: 30px;
 }
 
+.ajaxproducts {
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    position: relative;
+    /* padding-bottom: 10px; */
+    /* padding-top: 30px; */
+    top: 30px;
+}
+
 .addonimage img {
     width: 70%;
 }
@@ -584,16 +603,38 @@ button:focus {outline:0;}
 .limits {
     width: 100%;
     position: relative;
+    /* float: right; */
 }
 
 .limits img {
-    width: 93%;
+    width: 76%;
     display: block;
-    margin: auto;
+    /* margin: auto; */
     position: relative;
     padding-top: 3em;
+    /* float: right; */
+    margin-left: 220px;
 }
 
+
+.verticaldivider {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    /* position: absolute; */
+    /* width: 70%; */
+    display: block;
+}
+
+.verticaldivider img {
+    margin-bottom: 0px;
+    position: absolute;
+    width: 1000px;
+    top: 330px;
+    left: 525px;
+}
 /******************************/
 /*Responsive Styles*/
 /*****************************/
