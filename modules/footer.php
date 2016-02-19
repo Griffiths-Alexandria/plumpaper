@@ -36,8 +36,8 @@
     <div id="right">
         <img src="images/bottom_nav_line_1.png" alt="divider">
         <p class="footertext" id="changesreturns">
-            <a href='contact.php'>CHANGES</a> <br> 
-            <a href='contact.php'>RETURNS</a>
+            <a href='support.php'>FAQs</a> <br> 
+            <a href='products.php'>PRODUCTS</a>
         </p>
     </div>
 

@@ -132,7 +132,19 @@ body {
 }
 
 
+#demo {
+    
+}
 
+#demos h2{
+    display: block; 
+    margin: auto;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 16px;
+    
+}
 
 /**************/
 /* NAVIGATION */
@@ -289,11 +301,93 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 .ajaxsupport {
-    width: 100%;
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 2em;
 }
 
-.hidden {
-     display:none;
+.hiddenanswer {
+    display: none;
+}
+
+.faqquestions {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #be69a1;
+    /* padding-bottom: 1em; */
+}
+
+.faqquestions:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #a4ddca;
+    text-decoration: none;
+
+}
+
+
+
+.faqquestions:visited {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #a4ddca;
+    text-decoration: none;
+}
+
+.faqquestions:focus {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #a4ddca;
+    text-decoration: none;
+}
+
+#returnpolicy {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+}
+
+#returnpolicy a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#returnpolicy a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#wrongorder {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongorder a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongorder a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#processingtime {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#processingtime a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#processingtime a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
 }
 
 
@@ -1304,5 +1398,7 @@ display:none;
     margin-left: 5em;
 }
 }
+
+
 
 

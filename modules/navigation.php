@@ -63,7 +63,7 @@ $('.nav li').hover(function() {
         </li>
         <li class="navimage"><a href="shop.php" title="shop">shop</a></li>
         <li class="navimage"><a href="contact.php" title="contact">contact us</a></li>
-        <li><a href="faq.php" title="faqs">faqs</a>
+        <li><a href="faq.php" title="faqs">support</a>
             <!--<ul class="hidden">
                 <li><a href="/subpages/">General Questions</a></li>
                 <li><a href="/subpages/">Ordering Questions</a></li>

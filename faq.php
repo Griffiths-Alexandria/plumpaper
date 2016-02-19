@@ -15,75 +15,76 @@ and open the template in the editor.
             function loadDocAccount() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "products/meplanner.html", true);
+                xhttp.open("GET", "questions/account.html", true);
                 xhttp.send();
             }
 
             function loadDocGeneral() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "products/regularplanner.html", true);
+                xhttp.open("GET", "questions/general.html", true);
                 xhttp.send();
             }
 
             function loadDocPlacing() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "products/monthlyplanner.html", true);
+                xhttp.open("GET", "questions/placing.html", true);
                 xhttp.send();
             }
             function loadDocPending() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "products/teacherplanner.html", true);
+                xhttp.open("GET", "questions/pending.html", true);
                 xhttp.send();
             }
             function loadDocShipping() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "products/studentplanner.html", true);
+                xhttp.open("GET", "questions/shipping.html", true);
                 xhttp.send();
             }
             function loadDocProblem() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "products/fitnessplanner.html", true);
+                xhttp.open("GET", "questions/problem.html", true);
                 xhttp.send();
             }
             function loadDocReturns() {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function () {
-                    if (xhttp.readyState == 4 && xhttp.status == 200) {
-                        document.getElementById("demo").innerHTML = xhttp.responseText;
+                    if (xhttp.readyState === 4 && xhttp.status === 200) {
+                        document.getElementById("demos").innerHTML = xhttp.responseText;
                     }
                 };
                 xhttp.open("GET", "questions/returns.html", true);
                 xhttp.send();
             }
+   
 
         </script>
     </head>
@@ -121,7 +122,7 @@ and open the template in the editor.
                 <img src="images/home_divider_line.png" alt="divider">
             </div>
 
-            <div id="demo" class="ajaxsupport"><h2>*insert question pages*</h2></div>
+            <div id="demos" class="ajaxsupport"><h2>please click the buttons above to find the answers to our frequently asked questions</h2></div>
 
 
             <div id="footer">
