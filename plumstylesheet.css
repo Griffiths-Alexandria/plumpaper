@@ -133,7 +133,7 @@ body {
 
 
 #demo {
-    
+
 }
 
 #demos h2{
@@ -143,7 +143,17 @@ body {
     text-transform: uppercase;
     font-family: 'contax_pro_45_ligregular', sans-serif;
     font-size: 16px;
-    
+    color: #929395;
+}
+
+#demos #faqpink {
+    display: block; 
+    margin: auto;
+    text-align: center; 
+    text-transform: uppercase;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 25px;
+    color: #be69a1;
 }
 
 /**************/
@@ -216,10 +226,10 @@ ul li a:hover {
 }
 
 ul li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
 }
 
 /*Hover state for dropdown links*/
@@ -327,8 +337,6 @@ input[type=checkbox]:checked ~ #menu{
 
 }
 
-
-
 .faqquestions:visited {
     font-family: 'contax_pro_45_ligregular', sans-serif;
     font-size: 20px;
@@ -339,7 +347,7 @@ input[type=checkbox]:checked ~ #menu{
 .faqquestions:focus {
     font-family: 'contax_pro_45_ligregular', sans-serif;
     font-size: 20px;
-    color: #a4ddca;
+    color: #be69a1;
     text-decoration: none;
 }
 
@@ -390,6 +398,318 @@ input[type=checkbox]:checked ~ #menu{
     color: #a4ddca; 
 }
 
+#layouts {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#layouts a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#layouts a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#sizeplanner {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#sizeplanner a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#sizeplanner a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#laminatedtabs {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#laminatedtabs a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#laminatedtabs a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#changeinside {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeinside a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeinside a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#changespread {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changespread a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changespread a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#manypages {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manypages a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manypages a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#manynotepages {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manynotepages a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#manynotepages a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#covermat {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#covermat a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#covermat a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#shipmethod {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipmethod a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipmethod a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#wrongaddress {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongaddress a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#wrongaddress a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#shipbox {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipbox a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipbox a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#trackingupdate {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#trackingupdate a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#trackingupdate a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#shipcountries {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipcountries a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#shipcountries a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#intlship {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#intlship a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#intlship a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#cancelpolicy {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#cancelpolicy a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#cancelpolicy a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#phonenumber {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#phonenumber a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#phonenumber a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#changeorder {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeorder a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#changeorder a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#rushorder {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#rushorder a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#rushorder a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+#makeplanner {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#makeplanner a {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+}
+
+#makeplanner a:hover {
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    text-decoration: none;
+    color: #a4ddca; 
+}
+
+
+
+
+
+
+
+
+
 
 /**************ABOUT****************/
 .font {
@@ -416,7 +736,7 @@ input[type=checkbox]:checked ~ #menu{
     margin-top: 20px;
     margin-left: 45px;
     margin-bottom: 20px;
-    
+
 }
 
 #aboutimages {
@@ -669,7 +989,7 @@ br {
     border: none;
     text-transform: uppercase;
     color: #929395;
-    
+
 }
 
 
@@ -689,7 +1009,7 @@ br {
     color: #fff;
     border: none;
     text-transform: uppercase;
-    
+
 }
 
 button:focus {outline:0;}
@@ -786,15 +1106,15 @@ button:focus {outline:0;}
         /* position: absolute; */
         /* width: 120px; */
     }
-    
+
     .upperdivider img {
-    position: absolute;
-    display: block;
-    margin-left: 45px;
-    text-align: center;
-    margin-top: 10px;
-    width: 70%;
-}
+        position: absolute;
+        display: block;
+        margin-left: 45px;
+        text-align: center;
+        margin-top: 10px;
+        width: 70%;
+    }
 
     #homepp {
         display: none;
@@ -811,47 +1131,47 @@ button:focus {outline:0;}
         position: relative;
         padding-left: 4em;
     }    
-    
-    
-    
-/**************ABOUT****************/
-.font {
-    font-family: 'contax_pro_45_ligregular', sans-serif;
-    font-size: 14px;
-    color: #929395;
-    text-align: center;
-    margin-right: 20px;
-}
 
-#abouttxt {
-    position: relative;
-    /* margin-right: 20px; */
-    /* margin-left: 0px; */
-    margin-top: 1em;
-    width: 90%;
-}
 
-.header img{
-    position: relative;
-    width: 90%;
-    margin-top: 1em;
-    margin-left: 30px;
-    margin-bottom: 10px;
-}
 
-#aboutimages {
-    position: relative;
-    width: 100%;
-    margin-top: 1em;
-}
+    /**************ABOUT****************/
+    .font {
+        font-family: 'contax_pro_45_ligregular', sans-serif;
+        font-size: 14px;
+        color: #929395;
+        text-align: center;
+        margin-right: 20px;
+    }
 
-#aboutimages img {
-    width: 80%;
-    display: block;
-    margin-left: 80px;
-}
+    #abouttxt {
+        position: relative;
+        /* margin-right: 20px; */
+        /* margin-left: 0px; */
+        margin-top: 1em;
+        width: 90%;
+    }
 
-/****FOOTER*****/  
+    .header img{
+        position: relative;
+        width: 90%;
+        margin-top: 1em;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    #aboutimages {
+        position: relative;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    #aboutimages img {
+        width: 80%;
+        display: block;
+        margin-left: 80px;
+    }
+
+    /****FOOTER*****/  
 
 
     #footer {
@@ -1003,103 +1323,103 @@ button:focus {outline:0;}
         margin-top: 220px;
         background-color: #fff;
     }
-    
+
     #email{
-     margin-top: 200px;
-     /* margin-right: 500px; */
-     margin-left: 100px;
-     /* margin-bottom: 5px; */
-     /* padding-bottom: 15px; */
-     /* padding-left: 100px; */
-     /* padding-right: 900px; */
-     /* padding-top: 15px; */
-     position: absolute;
-     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
-     font-size: 15px;
-     z-index: 5;
-     /* width: 700px; */
-     /* float: left; */
-     background-color: #fff;
+        margin-top: 200px;
+        /* margin-right: 500px; */
+        margin-left: 100px;
+        /* margin-bottom: 5px; */
+        /* padding-bottom: 15px; */
+        /* padding-left: 100px; */
+        /* padding-right: 900px; */
+        /* padding-top: 15px; */
+        position: absolute;
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        z-index: 5;
+        /* width: 700px; */
+        /* float: left; */
+        background-color: #fff;
     }
-    
+
     #email a {
         color: #a4ddca;
         padding-left: 10px;
     }
-    
+
     br {
         display: block;
         line-height:22px;
     }
 
     #end {
-display:none;
+        display:none;
     }
-    
-    
+
+
     /***** MOBILE NAV ******/
 
- 
+
     /*Make dropdown links appear inline*/
-	nav ul {
-		position: relative;
-		display: block;
-                border: none;
-                width: 100%;
-                height: inherit;
-                margin-left: 0px;
-                padding: 0px;
-                text-align: center;
-                    
-	}     
-        
-	/*Create vertical spacing*/
-	nav li {
-		margin-bottom: 1px;
-                position: relative;
-                border: none;
-                width: 30%;
-                float: left;
-                display: inline-block;
-	}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-                border: none;
-	}
-        
-        nav li a {
-            border: none;
-            width: 190px;
-            text-align: center;
-            margin: 10px;
-            font-size: 15px;
-        }
-        
-        nav li a:hover {
-            border: none;
-            width: 190px;
-            text-align: center;
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-	/*Display 'show menu' link*/
-	.show-menu {
-		display:block;
-	}
-        
-        #aboutplum {
-            margin: 0px;
-            border: none;
-        } 
+    nav ul {
+        position: relative;
+        display: block;
+        border: none;
+        width: 100%;
+        height: inherit;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: center;
 
-        .footerdivider img {
-            display:none;
-        }
+    }     
 
-        .upperdivider2 img {
-            display: none;
-        }
+    /*Create vertical spacing*/
+    nav li {
+        margin-bottom: 1px;
+        position: relative;
+        border: none;
+        width: 30%;
+        float: left;
+        display: inline-block;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+        border: none;
+    }
+
+    nav li a {
+        border: none;
+        width: 190px;
+        text-align: center;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    nav li a:hover {
+        border: none;
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+
+    #aboutplum {
+        margin: 0px;
+        border: none;
+    } 
+
+    .footerdivider img {
+        display:none;
+    }
+
+    .upperdivider2 img {
+        display: none;
+    }
 
 
 }
@@ -1113,7 +1433,7 @@ display:none;
 
 @media screen and (max-width : 650px){
 
-        .body {
+    .body {
         width: 90%; 
         height: 100%;
     }
@@ -1139,18 +1459,18 @@ display:none;
         margin-left: 2em;
         margin-right: auto;
     }    
-/****FOOTER*****/    
+    /****FOOTER*****/    
     #footer {
-   
+
         background-color: #fff;
-           margin-top: 0px;
+        margin-top: 0px;
         /* padding-top: 15em; */
         background-color: #fff;
         width: 100%;
         padding-bottom: 250px;
         position: relative;
     }
-    
+
 
     #rightside {
         float: right;
@@ -1289,114 +1609,114 @@ display:none;
         margin-top: 230px;
         padding-bottom: 5px;
     }
-    
+
     #email{
-     margin-top: 200px;
-     margin-right: 500px;
-     margin-left: 0px;
-     padding-bottom: 15px;
-     padding-left: 100px;
-     /* padding-top: 35px; */
-     position: absolute;
-     font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
-     font-size: 15px;
-     z-index: 5;
-     /* width: 100%; */
-     float: left;
+        margin-top: 200px;
+        margin-right: 500px;
+        margin-left: 0px;
+        padding-bottom: 15px;
+        padding-left: 100px;
+        /* padding-top: 35px; */
+        position: absolute;
+        font-family: 'contax_pro_45_ligregular', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        z-index: 5;
+        /* width: 100%; */
+        float: left;
     }
-    
+
     #email a {
         color: #19c589;
         padding-left: 10px;
     }
-    
+
     br {
         display: block;
         line-height:22px;
     }
 
     #end {
-display:none;
+        display:none;
     }
-    
-    
-    
-  
-    
-/**** NAV ****/    
-    
+
+
+
+
+
+    /**** NAV ****/    
+
     /*Make dropdown links appear inline*/
-	nav ul {
-		position: relative;
-		display: block;
-                border: none;
-	}     
-        
-	/*Create vertical spacing*/
-	ul li {
-		margin-bottom: 1px;
-                position: relative;
-                border: none;
-	}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-                border: none;
-	}
-        
-        nav li a {
-            border: none;
-        }
-        
-        nav li a:hover {
-            border: none;
-        }
-	/*Display 'show menu' link*/
-	.show-menu {
-		display:block;
-	}
-        
-        #aboutplum {
-            margin: 0px;
-            border: none;
-        }
-        /**************ABOUT****************/
-.font {
-    font-family: 'contax_pro_45_ligregular', sans-serif;
-    font-size: 14px;
-    color: #929395;
-    text-align: center;
-    margin-right: 4em;
-}
+    nav ul {
+        position: relative;
+        display: block;
+        border: none;
+    }     
 
-#abouttxt {
-    position: relative;
-    /* margin-right: 20px; */
-    /* margin-left: 0px; */
-    margin-top: 1em;
-    width: 90%;
-}
+    /*Create vertical spacing*/
+    ul li {
+        margin-bottom: 1px;
+        position: relative;
+        border: none;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+        border: none;
+    }
 
-.header img{
-    position: relative;
-    width: 90%;
-    margin-top: 1em;
-    margin-left: 1.5em;
-    margin-bottom: 10px;
-}
+    nav li a {
+        border: none;
+    }
 
-#aboutimages {
-    position: relative;
-    width: 90%;
-    margin-top: 1em;
-    /* margin-right: 2em; */
-}
+    nav li a:hover {
+        border: none;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
 
-#aboutimages img {
-    width: 80%;
-    display: block;
-    margin-left: 5em;
-}
+    #aboutplum {
+        margin: 0px;
+        border: none;
+    }
+    /**************ABOUT****************/
+    .font {
+        font-family: 'contax_pro_45_ligregular', sans-serif;
+        font-size: 14px;
+        color: #929395;
+        text-align: center;
+        margin-right: 4em;
+    }
+
+    #abouttxt {
+        position: relative;
+        /* margin-right: 20px; */
+        /* margin-left: 0px; */
+        margin-top: 1em;
+        width: 90%;
+    }
+
+    .header img{
+        position: relative;
+        width: 90%;
+        margin-top: 1em;
+        margin-left: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #aboutimages {
+        position: relative;
+        width: 90%;
+        margin-top: 1em;
+        /* margin-right: 2em; */
+    }
+
+    #aboutimages img {
+        width: 80%;
+        display: block;
+        margin-left: 5em;
+    }
 }
 
 

@@ -122,7 +122,11 @@ and open the template in the editor.
                 <img src="images/home_divider_line.png" alt="divider">
             </div>
 
-            <div id="demos" class="ajaxsupport"><h2>please click the buttons above to find the answers to our frequently asked questions</h2></div>
+            <div id="demos" class="ajaxsupport">
+           
+            <h2 id="faqpink">please click the buttons above to find the answers to our <br> frequently asked questions</h2>
+        
+            </div>
 
 
             <div id="footer">
