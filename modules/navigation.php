@@ -14,7 +14,7 @@ $('.nav li').hover(function() {
 
 
 <div>
-    <img src="images/plum_logo.jpg" alt="logo" id="logo">
+    <a href="index.php"><img src="images/plum_logo.jpg" alt="logo" id="logo"></a>
 </div>
 
 <div class="upperdivider">
