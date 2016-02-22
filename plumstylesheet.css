@@ -157,6 +157,22 @@ body {
     color: #be69a1;
 }
 
+#explain {
+    padding-top: 4em;
+}
+
+#faq {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 20px;
+    color: #929395;
+    /* padding-bottom: 1em; */
+    padding-top: 1em;
+}
+
 area {
     outline: none;
 }
@@ -295,6 +311,15 @@ input[type=checkbox]:checked ~ #menu{
 /****************************************FAQ********************/
 
 #supportbuttons {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    /* padding-top: 4em; */
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#supportbuttons2 {
     display: inline-block;
     position: relative;
     margin: auto;
@@ -718,14 +743,14 @@ input[type=checkbox]:checked ~ #menu{
     display:block;
     margin: auto;
     text-align: center;
-        
+
 }
 
 map:focus {outline:0;}
 
 
 #contactbody {
-    
+
 }
 
 #contactbody img {
@@ -741,8 +766,20 @@ map {
 }
 
 
+#contactcontent {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-decoration: none;
+}
 
-
+.purple {
+    color: #be69a1;
+}
 
 /**************ABOUT****************/
 .font {
@@ -753,8 +790,8 @@ map {
 }
 
 #abouttxt {
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 75px;
+    /* padding-right: 55px; */
     margin-top: 70px;
     position: absolute;
     width: 1000px;
@@ -781,7 +818,7 @@ map {
 #aboutimages img {
     width: 80%;
     display: block;
-    margin-left: 110px;
+    margin-left: 115px;
 }
 
 /**************FOOTER***************/

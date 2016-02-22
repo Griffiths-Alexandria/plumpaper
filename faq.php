@@ -106,7 +106,7 @@ and open the template in the editor.
                 <img src="images/support/plumsupport.png" alt="supportheader">
             </div>
 
-            <div id="supportbuttons">
+            <div id="supportbuttons2">
                 <button onclick="loadDocAccount()" class="supportbutton"><img src="images/support/account.png" alt="accountbutton"></button>
                 <button onclick="loadDocGeneral()" class="supportbutton"><img src="images/support/generalquestions.png" alt="generalbutton"></button>
                 <button onclick="loadDocPlacing()" class="supportbutton"><img src="images/support/placingorder.png" alt="placingbutton"></button>
