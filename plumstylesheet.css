@@ -782,6 +782,32 @@ map {
 }
 
 /**************ABOUT****************/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel {
+    position: absolute;
+    width: 90%;
+    /* border-radius: 25px; */
+}
+
+#myCarousel {
+    position: absolute;
+    margin-top: -15px;
+}
+
+.clickover {
+    position: absolute;
+    margin-top: 320px;
+    font-family: 'contax_pro_45_ligregular', sans-serif;
+    font-size: 14px;
+    color: #929395;
+    text-align: center;
+}
+
 .font {
     font-family: 'contax_pro_45_ligregular', sans-serif;
     font-size: 14px;
@@ -1090,7 +1116,7 @@ button:focus {outline:0;}
     display: block;
     float: right;
     width: 80%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .ajax {
@@ -1157,6 +1183,7 @@ button:focus {outline:0;}
 /******************************/
 /*Responsive Styles*/
 /*****************************/
+
 
 
 @media screen and (max-width : 900px){
@@ -1493,6 +1520,7 @@ button:focus {outline:0;}
 
 
 }
+
 
 
 

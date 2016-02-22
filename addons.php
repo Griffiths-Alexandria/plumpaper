@@ -192,9 +192,61 @@ and open the template in the editor.
 
             <div class="ajax">
 
-        
 
-                <div id="demo" class="ajaxbody"><h2>*insert add-on landing page*</h2></div>
+
+                <div id="demo" class="ajaxbody">
+                    
+                    <div class="container">
+                        <br>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="images/carousel/slide_1.jpg" alt="Chania" width="460" height="345">
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/carousel/slide_2.jpg" alt="Chania" width="460" height="345">
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/carousel/slide_3.jpg" alt="Flower" width="460" height="345">
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/carousel/slide_4.jpg" alt="Flower" width="460" height="345">
+                                </div>
+                                
+                                <div class="item">
+                                    <img src="images/carousel/slide_5.jpg" alt="Flower" width="460" height="345">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                          <!--  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span> 
+                          -->
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="clickover"><span class="glyphicon glyphicon-hand-left"></span> Please click to learn more about our add-ons!</div>
+
+                </div>
 
 
 
